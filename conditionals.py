@@ -12,7 +12,7 @@ magic_number = 6
 
 if user_input == magin_number:
     print("ARE YOU A MINDREADER!?!?!")
-elif (user < 5) or (user_input > 50):
+elif (user_input < 5) or (user_input > 50):
     print("YOU'RE OUT OF RANGE!")
 else:
     print("Sorry. Try again.")
