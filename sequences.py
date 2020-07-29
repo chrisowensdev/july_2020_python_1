@@ -62,11 +62,11 @@
 
 
 # 8. Reverse a String
-string = "This is a string"
-a = len(string) - 1
-another_string = ""
-while a >= 0:
-    another_string = another_string + string[a]
-    a -= 1
+# string = "This is a string"
+# a = len(string) - 1
+# another_string = ""
+# while a >= 0:
+#     another_string = another_string + string[a]
+#     a -= 1
 
-print(another_string)
+# print(another_string)
