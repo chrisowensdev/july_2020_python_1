@@ -1,4 +1,4 @@
-title = "Green Lantern Corp"
+title = "G reen Lantern Corp"
 # STOP = 10
 # This next variable will increment
 counter = 0
@@ -19,7 +19,13 @@ counter = 0
 #     counter += 1
 
 # Step 4
+# while counter < len(title):
+#     if(counter % 2) == 0:
+#         print(title[counter])
+#     counter += 1
+
+# Step 5
 while counter < len(title):
-    if(counter % 2) == 0:
+    if(counter % 2) == 0 and title[counter] != " ":
         print(title[counter])
     counter += 1
