@@ -1,7 +1,14 @@
 title = "Green Latern Corp"
-STOP = 10
+# STOP = 10
+# This next variable will increment
 counter = 0
 
-while counter < STOP:
+# Step 1
+# while counter < STOP:
+#     print(counter)
+#     counter += 1
+
+# Step 2
+while counter < len(title):
     print(counter)
     counter += 1
