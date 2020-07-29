@@ -1,4 +1,4 @@
-title = "Green Latern Corp"
+title = "Green Lantern Corp"
 # STOP = 10
 # This next variable will increment
 counter = 0
