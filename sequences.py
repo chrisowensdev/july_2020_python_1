@@ -34,9 +34,18 @@
 
 
 # # 5. Positive Numbers
-# nums = [-1, 5, 9, -45, -36]
-# positive_nums = []
+# nums = [-1, 5, 9, -45, -36, 0]
+# greater_than_zero = []
 # for num in nums:
-#     if num >= 0:
-#         positive_nums.append(num)
-# print(positive_nums)
+#     if num > 0:
+#         greater_than_zero.append(num)
+# print(greater_than_zero)
+
+
+# 6. Positive Numbers II
+nums = [-1, 5, 9, -45, -36, 0]
+positive_nums = []
+for num in nums:
+    if num >= 0:
+        positive_nums.append(num)
+print(positive_nums)
