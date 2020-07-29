@@ -14,6 +14,12 @@ counter = 0
 #     counter += 1
 
 # Step 3
+# while counter < len(title):
+#     print(title[counter])
+#     counter += 1
+
+# Step 4
 while counter < len(title):
-    print(title[counter])
+    if(counter % 2) == 0:
+        print(title[counter])
     counter += 1
