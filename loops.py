@@ -9,6 +9,11 @@ counter = 0
 #     counter += 1
 
 # Step 2
+# while counter < len(title):
+#     print(counter)
+#     counter += 1
+
+# Step 3
 while counter < len(title):
-    print(counter)
+    print(title[counter])
     counter += 1
