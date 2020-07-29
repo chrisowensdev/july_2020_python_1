@@ -62,9 +62,11 @@
 
 
 # 8. Reverse a String
-string = "Chris"
-string_list = []
-for letter in string:
-    string_list.append(letter)
+string = "This is a string"
+a = len(string) - 1
+another_string = ""
+while a >= 0:
+    another_string = another_string + string[a]
+    a -= 1
 
-print(string_list)
+print(another_string)
