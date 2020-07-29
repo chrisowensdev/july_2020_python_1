@@ -50,12 +50,21 @@
 
 
 # 7. Multiply a list
-nums = [1, 2, 3]
-factor = 2
-multiplied_nums = []
+# nums = [1, 2, 3]
+# factor = 2
+# multiplied_nums = []
 
-for num in nums:
-    new_number = num * factor
-    multiplied_nums.append(new_number)
+# for num in nums:
+#     new_number = num * factor
+#     multiplied_nums.append(new_number)
 
-print(multiplied_nums)
+# print(multiplied_nums)
+
+
+# 8. Reverse a String
+string = "Chris"
+string_list = []
+for letter in string:
+    string_list.append(letter)
+
+print(string_list)
