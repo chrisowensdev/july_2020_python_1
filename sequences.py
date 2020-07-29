@@ -33,19 +33,29 @@
 # print(even_nums)
 
 
-# # 5. Positive Numbers
+# 5. Positive Numbers
 # nums = [-1, 5, 9, -45, -36, 0]
-# greater_than_zero = []
 # for num in nums:
 #     if num > 0:
-#         greater_than_zero.append(num)
-# print(greater_than_zero)
+#         print(num)
 
 
 # 6. Positive Numbers II
-nums = [-1, 5, 9, -45, -36, 0]
-positive_nums = []
+# nums = [-1, 5, 9, -45, -36, 0]
+# positive_nums = []
+# for num in nums:
+#     if num > 0:
+#         positive_nums.append(num)
+# print(positive_nums)
+
+
+# 7. Multiply a list
+nums = [1, 2, 3]
+factor = 2
+multiplied_nums = []
+
 for num in nums:
-    if num >= 0:
-        positive_nums.append(num)
-print(positive_nums)
+    new_number = num * factor
+    multiplied_nums.append(new_number)
+
+print(multiplied_nums)
