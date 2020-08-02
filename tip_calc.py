@@ -1,5 +1,5 @@
 bill_amount = int(input("Total bill amount? "))
-level_of_service = input("Level of service? ")
+level_of_service = input("Level of service (Good, Fair, Bad) ? ")
 lower_los = level_of_service.lower()
 tip = 0
 
@@ -9,7 +9,7 @@ tip = 0
 
 if lower_los == 'good':
     tip = .20
-elif lower_los == 'fail':
+elif lower_los == 'fair':
     tip = .15
 elif lower_los == 'bad':
     tip = .10
